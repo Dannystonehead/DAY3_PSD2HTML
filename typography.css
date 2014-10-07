@@ -1,0 +1,24 @@
+/*
+구글 웹폰트 적용
+*/
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+/*
+htmㅣ 문서의 본문(body)에 해당되는 요소를 찾아서 또는 선택해서 꾸며줍니다.
+*/
+body{
+		/* 디자인 가이드라인으로 쓸 베이스라인 배경 이미지를 삽입*/
+	background-image: url(../images/baseline-21px.gif);
+
+	/*
+	키: 값;
+	키: 값;
+	키: 값;
+	*/
+	font-family: "Nanum"
+	color: #313335;
+	letter-spacing: -0.015;
+	word-spacing: 1em;
+
+
+}
